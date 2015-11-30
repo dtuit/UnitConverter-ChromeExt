@@ -1,0 +1,102 @@
+﻿.selector {
+    background-color: whiteSmoke;
+    background-image: -moz-linear-gradient(top,whiteSmoke,#f1f1f1);
+    background-image: linear-gradient(top,whiteSmoke,#f1f1f1);
+    border: 1px solid gainsboro;
+    color: #212121;
+    font-size: 13px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-appearance: button;
+    width: 150px;
+}
+
+    .selector:hover {
+        background-color: #f8f8f8;
+        border-color: #c6c6c6;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    }
+
+    .selector:focus {
+        border-color: #1878f0;
+    }
+
+    .selector:disabled {
+        background-color: #fff;
+        border-color: #f3f3f3;
+        color: #b8b8b8;
+    }
+
+.unit_selector {
+    background-position-x: 195px;
+    background-position-y: center;
+    position: relative;
+    top: -1px;
+    width: 211px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+}
+
+.ucw_data {
+    border: 1px solid #D9D9D9;
+    border-top: 1px solid silver;
+    font-size: 150%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 6px;
+    position: relative;
+    text-align: center;
+    width: 197px;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+}
+
+.side_div {
+    float: left;
+    width: 211px;
+}
+
+#conversion_selector {
+    background-position-x: 433px;
+    width: 449px;
+}
+
+input::-moz-outer-spin-button, input::-moz-inner-spin-button {
+    -moz-appearance: none;
+    margin: 0;
+}
+
+#ul_body {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin:0px;
+}
+
+/*options.html Specific*/
+
+#div_main {
+    margin: 40px auto 20px auto;
+    min-width: 650px;
+    width: 700px;
+    background-color: #DCDDD8;
+    border-style: ridge;
+}
+
+.opt_body {
+    font-family: "GothamBold", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+ "background": {
+    "scripts": ["src/bg/background.js", "js/data/units.js", "js/common.js", "js/settings_loadsavedel.js", "/js/jquery/jquery-2.0.3.min.js"]
+  },
+  "name": "Unit Converter",
+  "description": "Easy to use Unit Converter",
+  "version": "0.0.0.3",
+  "icons": {
+   "16": "icons/Units-icon24.png", 
+   "48": "icons/Units-icon48.png",
+   "128": "icons/Units-icon128.png"
+   },
+   "options_page": "src/options/options.html",
+   "browser_action": {
+    "default_icon": "icons/Units-icon48.png",
+    "default_popup": "src/browser_action/unitConverter.html"
+  },
+  "permissions": [
+          "storage"
+        ]
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Unit Converter Options</title>
+    <link href="../../css/ucStyle.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../js/jquery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../../js/settings_loadsavedel.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+</head>
+<body class="opt_body">
+    <div id="div_main">
+        <div style="width: 100px; float: left; height: inherit; min-height: 600px">
+            <img style="margin-top: 10px; margin-left: 28px" src="../../icons/Units-icon48.png" />
+        </div>
+        <div style="color: #D74B4B;">
+            <h2 style="margin-left: 90px;">Unit Converter Options:</h2>
+        </div>
+
+        <p style="font-family: Arial; font-size: 13px;">Select the options that you want set as defaults for each category and click Save!</p>
+
+        <div style="color: #475F77;">
+
+            <table id="options_table">
+                <tbody>
+                    <tr>
+                        <td>Default Category:</td>
+                        <td><select id="conversion_selector" class="selector" style="width: 150px"></select></td>
+                    </tr>
+                    <tr style="height: 10px;"></tr>
+                    <!-- -->
+
+
+                    <tr style="height: 10px;"></tr>
+                    <tr><td>Decimal Places:</td><td>
+                        <select id="decimal_places" class="selector" style="width: 150px"><option value='1'>1</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5</option>
+                            <option value='6'>6</option>
+                            <option value='7'>7</option>
+                            <option value='8'>8</option>
+                            <option value='9'>9</option>
+                        </select>
+                    </td></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right">
+                            <input id="save" style="width: 80px" type="button" value="Save" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    </html>

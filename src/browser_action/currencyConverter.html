@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Unit Converter</title>
+    <link href="style/ucStyle.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="scripts/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="scripts/currencyConverter.js"></script>
+    <script type="text/javascript" src="scripts/currencies.js"></script>
+    <script type="text/javascript" src="scripts/sec.loadSaveDel.js"></script>
+    <script type="text/javascript" src="scripts/sec.Common.js"></script>
+
+
+</head>
+<body>
+<div>HURR DURR</div>>
+    <div style="display: inline-block; width: 100%; margin:10px" id="ucw_main" class="ucw_main">
+        <ul id="ul_body">
+            <li>
+                <select id="conversion_selector" class="selector">
+                </select>
+            </li>
+            <li style="padding-top: 10px">
+                <div id="lhs_div" class="side_div">
+                    <input id="left_input" class="ucw_data" value="" />
+                    <select id="left_selector" class="unit_selector selector">
+                    </select>
+                </div>
+                <div style="font-family:Arial; float: left; line-height: 44px; width: 27px; text-align: center; font-size: 26px; color: #878787; position: relative">=</div>
+                <div id="rhs_div" class="side_div">
+                    <input id="right_input" class="ucw_data" value="" />
+                    <select id="right_selector" class="unit_selector selector">
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
